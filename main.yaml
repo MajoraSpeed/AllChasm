@@ -1,0 +1,169 @@
+- Route All Chasm créé par moi Majora_Speed 
+- Route conçu pour la 1.0.0 
+- Timer fini après avoir vue la banderole "Vous avez decouvert "le nom du chasm""
+
+- Intro : 
+  - Intro Clip :
+     notes: Intro Clip normal ou BTT
+     comment: Mettez bien le mod cutsscene skip ou regarder la cutscene 
+     icon: zelda
+- Great Sky Island 1:
+  - Wings : 
+     notes: Dup jusqu'a 22 puis title
+     icon: chest
+     comment: opti stamina
+     movements: 
+      - [379,1500,-1620]
+      - [385.75,1500,-1649.75]
+      - [379.8125,15000,-1690.4375]
+  - Temple Of Time:
+     notes: Wing FLip et faire Early Sheild sans péter l'épée de légende et scan ToT
+     comment: Faire un comme en Any% pour la rusty
+     icon: shrine
+     movements: 
+      - [429.125,1500,-1684.25]
+      - [384.5,1500,-1438]
+      - [417,1500,-1354]
+      - [452.5625,1500,-1310.25]
+      - [452.75,1500,-884.0625]
+  # Warping to travel medallion. Order of the coordinates are the same as you would enter with the `coord` property
+  - _Warp::TravelMedallion<379.8125,15000,-1690.4375>:
+     icon:
+     comment: je mets travel médaillon pour le respawn pour FDC EA
+  - _Shrine::Gutanbac:
+     icon: Ascend
+     notes: une fois dans le shrine on lance la rusty on recup la rusty on kill Billy et QDS puis finish Ascend
+  - _Shrine::Inisa:
+     icon: Fuse
+     movements:
+      - [733.8125,1500,-1351.4375]
+      - [706,1500,-1351]
+      - [26.07, 1527.75, -1503.60]
+     notes: Faire EB version EA puis enter fuse et finish fuse
+     comment: Dans fuse recup espadon et dup 15 bombs et dup 4 sheild
+  - _Shrine::Ukouh:
+     icon: UH
+     notes: Quick FUH/Roms FUH et prendre Skew à la fin de UH 
+  - _Shrine::Nachoyah:
+     icon: RECALL
+     notes: ToT  puis tp Recall fuse bomb et finir recall
+     movements: 
+      - [452.75,1500,-884.0625]
+      - [453,1500,-743.5]
+      - [367.4375,1500,-1750.5]
+      - [389.63, 2417.91, -1661.45]
+  - _Warp::Shrine::Ukouh
+  - Great Sky Island:
+     icon: TOUR
+     movements:
+      - [452.75,1500,-884.0625]
+      - [453,1500,-743.5]
+      - [453.625,1500,-635.75]
+     notes: Soit prendre Skew soit faire sans Skew et ASF à la porte ToT skew before Godesse et scan end
+- Cart:
+  - _Warp::Shrine::Nachoyah:
+     color: red
+  - Fairy Island:
+     notes: En descendant de Recall prendre le chest avec la large zonai charge puis allée a l'ile des fées 
+     comment: Dup 15 charges et 20 fées environs et save apres dup
+     icon: fairy
+     movements:
+      - [499.5,1500,-1620]
+      - [936,1500,-2139]
+  - Infint Pocket Rocket:
+     notes: Du coup après on fait IPR (juste pas besoin de reload a 5km juste la derniere save suffit)
+     comment: .link([Liens de mon tuto pour IPR])
+     icon: WST
+     coord: [896,1500,-2104]
+  - Cart:
+     notes: Après avoir reload la save drop le sheil et recup le PC puis partir vers draconis et use le dispenser
+     icon: Dispenser
+     coord: [1384,1500,-3246]
+- Chasms:
+  - Dup Zonai:
+     notes: Dup 20 cart et 20 sticks
+     icon: zonai-dup
+     color: purple
+     coord: [1410,1500,-3240]
+  - _Chasm::Enter::HillsofBaumer:
+     notes: Drop sheild fuse cart sur l'espadon puis CS vers le Nord Ouest
+  - _Chasm::Enter::LakeHylia:
+     notes: CS vers l ancien shrine du lake
+  - _Chasm::Enter::GreatPlateauSouth: 
+     notes: CS vers Stas
+  - _Chasm::Enter::GreatPlateauEast:
+     notes: CS vers le Nord Est
+  - _Chasm::Enter::ForestofTime:
+     notes: CS vers le Nord Est
+  - _Chasm::Enter::GreatPlateauNorth:
+     notes: CS vers Mag
+  - _Chasm::Enter::GreatPlateauWest:
+     notes: CS vers Cryo
+  - _Chasm::Enter::SouthLomei:
+     notes: CS vers le Maze du desert
+  - _Chasm::Enter::EastGerudo:
+     notes: Remonter en haut du Maze avec IPR puis CS vers les 7 héroïnes
+  - _Chasm::Enter::BiridaLookout:
+     notes: CS vers l'ancienne tour Gerudo 
+  - _Chasm::Enter::YigaClanHideout:
+     notes: Remonter a un endroit et attendre d'avoir la bonne hauteur pour avancé avec le CS chez Kogha
+  - _Chasm::Enter::GerudoSummit:
+     notes: CS vers le Nord Ouest
+  - _Chasm::Enter::HyruleRidge:
+     notes: CS vers le Nord Est
+  - _Chasm::Enter::RitoVillage:
+     notes: CS vers rito village
+  - _Chasm::Enter::NorthLomei:
+     notes: CS vers le Maze
+  - _Chasm::Enter::DrenanHighlands:
+     notes: CS vers la foret
+  - _Chasm::Enter::ElmaKnolls:
+     notes: CS vers le Sud Ouest
+  - _Shrine::Ekochiu:
+     notes: Scan juste le shrine pour tp plus tard
+  - _Chasm::Enter::MinshiWoods:
+     notes: CS vers L'Est
+  - _Chasm::Enter::DekuTree:
+     notes: Clip puis pas trop IPR vers le haut et revenir in bounce avec un stick
+  - _Warp::Shrine::Ekochiu:
+     notes: Zuggle le sheild avant de retp
+  - _Chasm::Enter::HyruleCastleMoatEast:
+     notes: CS vers le Sud Ouest
+  - _Shrine::Serutabomac:
+     notes: CS vers le Shrine et le scan pour une tp futur
+  - _Chasm::Enter::HyruleCastle:
+     notes: Juste sauté dans le trou attendre d'avoir l'icone sur la map
+     comment: Zuggle le sheild puis tp Serutabomac
+  - _Warp::Shrine::Serutabomac
+  - _Chasm::Enter::HyruleCastleMoatWest:
+     notes: CS vers l'entry
+  - _Chasm::Enter::HyruleField:
+     notes: CS vers le centre de Hryule Feilds 
+     comment: Eviter d'aller dans les miasmes sinon dialogue avec un PNJ
+  - _Chasm::Enter::EastHill:
+     notes: CS vers Kak 
+  - _Chasm::Enter::LanayruWetlands:
+     notes: CS vesr le Nord Ouest
+  - _Chasm::Enter::DeathMountain:
+     notes: CS vers le sommet du Volcan
+  - _Chasm::Enter::SkullLake:
+     notes: CS vesr le Nord Est
+  - _Chasm::Enter::EastAkkalaPlains:
+     notes: IPR sur les cotés puis lancé CS vesr le chasm
+  - _Chasm::Enter::TingelIsland:
+     notes: CS vesr les îles
+  - _Chasm::Enter::SouthAkkalaPlains:
+     notes: CS vers l'ancienne citadelle d'Akkala
+  - _Tower::UplandZorana:
+     notes: CS vers la tour pour juste prendre la tp
+  - _Chasm::Enter::UnderZorasDomain:
+     notes: CS vers le chasm de Kogha 
+  - _Warp::Tower::UplandZorana
+  - _Chasm::Enter::NaydraSnowfield:
+     notes: CS vers le mont Lanayru
+  - _Chasm::Enter::EventideIsland:
+     notes: CS vers l'île Finalis
+  - _Chasm::Enter::MedaMountain:
+     notes: CS vers les Monts Geminé
+  - _Chasm::Enter::TobiosHollow:
+     notes: CS vers l'entré de Fabric puis clip 
